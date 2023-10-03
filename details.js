@@ -13,10 +13,12 @@ function getIPDetails() {
             document.getElementById('city').innerText = ipData.city;
             document.getElementById('region').innerText = ipData.region;
 
+           
+
             const mapContainer = document.getElementById('map');
             const latitude = parseFloat(ipData.latitude);
             const longitude = parseFloat(ipData.longitude);
-            const mapUrl = `https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed`;
+            const mapUrl = `https://maps.google.com/maps?q=23.2324214, 87.8614793&z=15&output=embed`;
   
             const mapIframe = document.createElement('iframe');
             mapIframe.src = mapUrl;
