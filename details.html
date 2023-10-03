@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Details</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>IP Details</h1>
+        <p>IP Address: <span id="ipAddress">Loading </span></p>
+        <p>Latitude: <span id="latitude">Loading </span></p>
+        <p>Longitude: <span id="longitude">Loading </span></p>
+        <p>City: <span id="city">Loading </span></p>
+        <p>Region: <span id="region">Loading </span></p>
+        <div id="map" style="height: 300px; width: 100%;"></div>
+        <input type="text" id="searchInput" placeholder="Search by Name">
+        <ul id="postOffices"></ul>
+    </div>
+    <script src="details.js"></script>
+</body>
+
+</html>
